@@ -16,14 +16,14 @@ import storage from "redux-persist/lib/storage";
 const contactDetailsConfig = {
   key: "contacts",
   storage,
-  whitelist: ["items"],
+  whitelist: ["items"]
 //   blacklist: ['contacts', "isError", "isLoading", "productData"],
 };
 
 export const store = configureStore({
   reducer: {
-    contacts: persistReducer(contactDetailsConfig, contactsReducer),
-    filters: filtersReducer,
+    contactsDetails: persistReducer(contactDetailsConfig, contactsReducer),
+    filtersDetails: filtersReducer,
   },
   middleware: (getDefaultMiddleware) =>
   getDefaultMiddleware({
