@@ -1,5 +1,5 @@
 .form {
-    border: 0.8px solid var(  --text-dark);
+    border: 0.8px solid var(--text-dark);
     box-shadow: 6px 3px 2px rgba(0, 0, 0, 0.16), 1px 2px 3px rgba(0, 0, 0, 0.14), 1px 3px 1px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
     padding: 30px;
@@ -63,5 +63,5 @@
     font-size: 14px;
     border-radius: 8px;
     color: var(--red-background);
-    background-color: var( --light-red-background);
+    background-color: var(--light-red-background);
 }
