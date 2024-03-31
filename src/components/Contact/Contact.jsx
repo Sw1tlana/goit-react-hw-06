@@ -12,7 +12,6 @@ const Contact = ({ id, name, number }) => {
   }
 
   return (
-    <div>
       <li className={css.contactItem}>
         <div className={css.containerContactItem}>
           <div className={css.containerInfo}>
@@ -23,8 +22,6 @@ const Contact = ({ id, name, number }) => {
           onClick={() => handleDelete(id)}>Delete</button>
         </div>
       </li>
-
-    </div>
   )
 };
 
