@@ -18,7 +18,6 @@ const contactsConfig = {
   key: "contacts",
   storage,
   whitelist: ["items"],
-//   blacklist: ['contacts', "isError", "isLoading", "productData"],
 };
 
 const persistConfigReducer = persistReducer(contactsConfig, contactsReducer);
